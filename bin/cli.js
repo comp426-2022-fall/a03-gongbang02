@@ -14,4 +14,4 @@ if(args.dice) dice = args.dice;
 if(args.rolls) rolls = args.rolls;
 
 const output = roll(sides, dice, rolls);
-console.log(JSON.stringify(out));
+console.log(JSON.stringify(output));
