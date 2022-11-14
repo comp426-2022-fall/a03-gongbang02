@@ -1,0 +1,23 @@
+{
+  "name": "node-dice",
+  "version": "1.0.0",
+  "description": "a package that simulates dice roll",
+  "main": "./lib/roll.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "roll-dice": "./bin/cli.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a03-gongbang02.git"
+  },
+  "author": "gongbang02",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a03-gongbang02/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a03-gongbang02#readme",
+  "dependencies": {
+    "minimist": "^1.2.7"
+  }
+}
